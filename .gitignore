@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Ignore compiled output and temporary files
+bin/
+obj/
+
+# Ignore user-specific files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.usertasks
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore NuGet package restore files
+packages/
+
+# Ignore log files
+*.log
+
+# Ignore generated files
+*.dbmdl
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.opensdf
+*.sln.docstates
+*.pdb
+*.cache
+*.ilk
+*.log
+*.dll
+*.exe
+*.manifest
+*.local.testsettings
+*.psess
+*.user
+
+# Ignore Resharper files
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# Ignore build output
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignore .NET Core build output
+*.nuget.props
+*.nuget.targets
+
+# Ignore Mac-specific files
+.DS_Store
+
